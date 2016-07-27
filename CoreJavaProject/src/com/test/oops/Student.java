@@ -14,6 +14,18 @@ public class Student {
 		this.sno = sno;
 	}
 
+	@Override
+	public boolean equals(Object obj) {
+		System.out.println(" Equals () ... ");
+		if(obj instanceof Student){
+			Student stuObj = (Student) obj;
+			if( this.sno == stuObj.getSno() && this.sname.equals(stuObj.getSname())){
+				return true;
+			}
+		}
+		return false;
+	}
+
 	public String getSname() {
 		return sname;
 	}

@@ -10,6 +10,7 @@ public class StudentApp {
 		
 		//Second Object
 		Student stuObj2 = new Student(999,"Tim",3500);
+		stuObj2.setFee(5656);
 		
 		System.out.println(" to String : Obj1 " + stuObj);
 		
