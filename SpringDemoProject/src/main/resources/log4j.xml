@@ -10,7 +10,7 @@
 	</appender>
 
 	<root>
-		<level value="ALL" />
+		<level value="Fatal" />
 		<appender-ref ref="console" />
 	</root>
 </log4j:configuration>
